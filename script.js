@@ -12,7 +12,7 @@ Facebook = {
         console.info("script initialized on the page...");
         setTimeout(() => this.scrollBottom(data, config), config.actionDelay);
     },
-// this method scrolls to the bottom its value is window height then excutes scrollTop method
+// this method scrolls to the bottom its value is window height then excutes insepect method
     scrollBottom: function (data, config) {
         window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
         setTimeout(() => this.inspect(data, config), config.scrollDelay);
