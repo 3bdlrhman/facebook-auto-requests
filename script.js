@@ -3,7 +3,7 @@ Facebook = {
         scrollDelay: 3000,
         actionDelay: 5000,
         // set to -1 for no limit
-        maxRequests: 10,
+        maxRequests: -1,
         totalRequestsSent: 0,
     },
 
